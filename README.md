@@ -2,7 +2,7 @@
 
 Asp.Net core mvc - Json - Http
 
-<h4> An mvc application that connects to the API and pulls the data </h4>
+<h4> Mvc application that connects to the API and pulls the data </h4>
 
 API = https://coronavirus-19-api.herokuapp.com/ <br>
 API GITHUB = https://github.com/javieraviles/covidAPI
