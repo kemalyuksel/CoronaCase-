@@ -20541,11 +20541,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\cassi\\Desktop\\CoronaApi\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\cassi\\Desktop\\CoronaApi\\Views\\Home\\Country.cshtml",
       "TargetPath": "Views\\Home\\Country.cshtml",
       "FileKind": "mvc"
