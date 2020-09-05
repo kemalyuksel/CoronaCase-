@@ -1,0 +1,30 @@
+﻿@model List<Country>
+
+@{
+    ViewData["Title"] = "World";
+}
+
+<form asp-controller="Home" asp-action="Index" method="Get" class="text-center float-right mr-3">
+    <div class="form-group">
+        <input  placeholder="Ülke Ara" id="name" name="name" style="width: 400px">
+    </div>
+</form>
+
+
+<table class="table table-stripped table-bordered table-hover table-color">
+    <tr>
+        <th>Ülke Adı</th>
+        <th>Toplam Vaka</th>
+        <th>Toplam Ölüm</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td><a asp-action="Index" asp-controller="Home" asp-route-name="@item.country.ToLower()" ><h2>@item.country</h2></a></td>
+            <td><h3 class="text-danger">@item.cases</h3></td>
+            <td><h3 class="text-danger">@item.deaths</h3></td>
+        </tr>
+    }   
+
+</table>

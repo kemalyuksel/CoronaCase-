@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WDeXoA2Dw/OtHbTqfCL3l5dZZpy3tbktDg5WyfFsmYVGuE9MkRYWeSlKbD/mXNSgai864rRp4Js1FCZ6TsidKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cassi\\Desktop\\CoronaApi\\CoronaApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cassi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
